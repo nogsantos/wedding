@@ -8,7 +8,7 @@ module.exports = function (grunt) {
             },
             my_target: {
                 files: {
-                    'production/js/default.js': [
+                    'gh-pages/js/default.js': [
                         'dev/js/*.js'
                     ]
                 }
@@ -21,18 +21,18 @@ module.exports = function (grunt) {
                     imageAlpha: true,
                     quitAfter: true
                 },
-                src: ['dev/img', 'production/img']
+                src: ['dev/img', 'gh-pages/img']
             }
         },
         // less
         less: {
             development: {
                 options: {
-                    paths: ["production/css"],
+                    paths: ["gh-pages/css"],
                     compress: true
                 },
                 files: {
-                    'production/css/component.css': ["dev/css/less/component.less"]
+                    'gh-pages/css/component.css': ["dev/css/less/component.less"]
                 }
             }
         },
@@ -43,7 +43,7 @@ module.exports = function (grunt) {
                     collapseWhitespace: true
                 },
                 files: {
-                    'production/index.html': 'dev/index.html'
+                    'gh-pages/index.html': 'dev/index.html'
                 }
             }
         }
