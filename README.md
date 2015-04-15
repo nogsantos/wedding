@@ -17,11 +17,10 @@ Estrutura
 └─── gh-pages/
 ```
 
-
 Arquivos desenvolvimento:
 * branch dev
-* $ git clone -b dev https://github.com/nogsantos/wedding.git
+* comando: git clone -b dev https://github.com/nogsantos/wedding.git dev
 
 Arquivos produção:
 * branch gh-pages
-* $ git clone -b gh-pages https://github.com/nogsantos/wedding.git
+* comando git clone -b gh-pages https://github.com/nogsantos/wedding.git gh-pages
