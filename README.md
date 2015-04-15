@@ -18,9 +18,12 @@ Estrutura
 ```
 
 Arquivos desenvolvimento:
-* branch dev
-* comando: git clone -b dev https://github.com/nogsantos/wedding.git dev
+* Branch dev
+* Comando: git clone -b dev https://github.com/nogsantos/wedding.git dev
 
 Arquivos produção:
-* branch gh-pages
-* comando git clone -b gh-pages https://github.com/nogsantos/wedding.git gh-pages
+* Branch gh-pages
+* Comando: git clone -b gh-pages https://github.com/nogsantos/wedding.git gh-pages
+
+Finalizar a instalação do ambiente:
+* Comando: npm install grunt-contrib-uglify grunt-contrib-less grunt-contrib-watch grunt-imageoptim grunt-contrib-htmlmin --save-dev
